@@ -347,8 +347,9 @@ footer ul li{
 
 
 
-.login-form {
-  display: grid;
+.login-container {
+  display: flex;
+  flex-direction: column;
   background-color: #495e57;
   padding: 50px;
   padding-left: 100px;
@@ -360,6 +361,8 @@ footer ul li{
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
   border-radius: 16px;
   border: 1px solid #ccc;
 }

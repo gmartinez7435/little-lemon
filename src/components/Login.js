@@ -44,7 +44,7 @@ function Login() {
   };
 
   return (
-    <div className="login-form">
+    <div className="login-container">
       <form onSubmit={handleSubmit}>
         <fieldset className="sign-up">
           <h2>Sign Up</h2>
@@ -111,7 +111,7 @@ function Login() {
               <option value="business">Business</option>
             </select>
           </div>
-          <button type="submit" disabled={!getIsFormValid()}>
+          <button type="submit" disabled={!getIsFormValid()} onClick={(e) => handleSubmit(e)}>
             Create account
           </button>
         </fieldset>
