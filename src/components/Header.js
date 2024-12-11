@@ -13,11 +13,11 @@ const Header = () => {
                 <Link to="/booking"><button aria-label='On Click'>Reserve Table</button></Link>
             </div>
             <div className='banner-img'>
-                <img src={resturantfood} alt='picture of food'></img>
+                <img src={resturantfood} alt=' food'></img>
             </div>
         </section>
     </header>
   )
 }
 
-export default Header
+export default Header;
