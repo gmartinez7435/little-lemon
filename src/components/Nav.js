@@ -38,7 +38,7 @@ const Nav = () => {
                   <Link to="/">Order Online</Link>
                 </li>
                 <li>
-                  <Link to="/">Login</Link>
+                  <Link to="/Login">Login</Link>
                 </li>
             </ul>
             {/* for desktop */}

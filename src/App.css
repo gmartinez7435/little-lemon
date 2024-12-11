@@ -342,3 +342,40 @@ footer ul li{
   display: flex;
   justify-self: center;
 }
+
+/* for Login */
+
+
+
+.login-form {
+  display: grid;
+  background-color: #495e57;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.sign-up {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+}
+
+.sign-up > h2 {
+  color: #495e57;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.Field > label {
+  margin-bottom: 5px;
+}
