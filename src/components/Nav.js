@@ -9,6 +9,10 @@ const Nav = () => {
         setMenuOpen(!menuOpen);
     }
 
+    const closeMenu = () => {
+      setMenuOpen(false);
+    }
+
     return (
         <nav className={`navbar ${menuOpen ? "open" : ""}`}>
             <Link to="/" className='logo'>
@@ -23,22 +27,22 @@ const Nav = () => {
             {/* nav links */}
             <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/" onClick={closeMenu}>Home</Link>
                 </li>
                 <li>
-                  <Link to="/About">About</Link>
+                  <Link to="/About" onClick={closeMenu}>About</Link>
                 </li>
                 <li>
-                  <Link to="/">Menu</Link>
+                  <Link to="/" onClick={closeMenu}>Menu</Link>
                 </li>
                 <li>
-                  <Link to="/">Reservations</Link>
+                  <Link to="/Booking" onClick={closeMenu}>Reservations</Link>
                 </li>
                 <li>
-                  <Link to="/">Order Online</Link>
+                  <Link to="/" onClick={closeMenu}>Order Online</Link>
                 </li>
                 <li>
-                  <Link to="/Login">Login</Link>
+                  <Link to="/Login" onClick={closeMenu}>Login</Link>
                 </li>
             </ul>
             {/* for desktop */}
