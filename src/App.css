@@ -321,3 +321,11 @@ footer ul li{
 .hidden{
   display: none;
 }
+
+.about-header {
+  float: left;
+  width: 620px;
+  margin: 20px;
+  
+}
+
