@@ -322,10 +322,23 @@ footer ul li{
   display: none;
 }
 
+
 .about-header {
-  float: left;
-  width: 620px;
-  margin: 20px;
-  
+  background-color: #495e57;
+  padding: 40px 0;
+  height: auto;
 }
 
+.about-header {
+  color: #EDEFEE;
+  padding: 10px 13%;
+  display: flex; /* Use Flexbox to arrange items side by side */
+  justify-content: space-around; /* Distribute space between items */
+  align-items: flex-start; /* Align items at the top */
+  flex-wrap: wrap; /* Allow elements to wrap */
+}
+
+.about-btn {
+  display: flex;
+  justify-self: center;
+}

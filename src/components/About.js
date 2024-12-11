@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <header className="header">
+    <header className="about-header">
       <section>
         <div className="banner">
           <h2>About Us</h2>
@@ -34,7 +34,7 @@ const About = () => {
           </p>
 
           <Link to="/booking">
-            <button aria-label="on Click">Reserve Table</button>
+            <button className="about-btn" aria-label="on Click">Reserve Table</button>
           </Link>
         </div>
       </section>
