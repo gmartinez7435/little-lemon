@@ -4,7 +4,7 @@ import Header from './Header'
 import Booking from './Booking'
 import ConfirmedBooking from './ConfirmedBooking'
 import About from './About'
-import Login from './Login'
+import SignUp from './SignUp'
 
 const Main = () => {
 
@@ -57,7 +57,7 @@ const Main = () => {
             {submitForm}/>}/>
             <Route path='/confirmed' element={<ConfirmedBooking/>}/>
             <Route path="/about" element={<About />}/>
-            <Route path="/login" element={<Login />}/>
+            <Route path="/SignUp" element={<SignUp />}/>
         </Routes>
     </main>
   )

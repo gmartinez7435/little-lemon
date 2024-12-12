@@ -42,7 +42,7 @@ const Nav = () => {
                   <Link to="/" onClick={closeMenu}>Order Online</Link>
                 </li>
                 <li>
-                  <Link to="/Login" onClick={closeMenu}>Login</Link>
+                  <Link to="/SignUp" onClick={closeMenu}>Sign-up/Login</Link>
                 </li>
             </ul>
             {/* for desktop */}
