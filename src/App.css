@@ -257,6 +257,23 @@ footer ul li{
   padding: 8px 0;
 }
 
+.foot-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.foot-section {
+  display: grid;
+  text-align: left;
+  gap: 25px;
+  margin: 25px
+}
+
+.foot-section p {
+  margin: 5px 0;
+}
 
 @media screen and (max-width: 768px){
   .menu-icon {
