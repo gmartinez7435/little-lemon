@@ -5,6 +5,9 @@ import Booking from './Booking'
 import ConfirmedBooking from './ConfirmedBooking'
 import About from './About'
 import SignUp from './SignUp'
+import Menu from './Menu'
+import Order from './Order'
+
 
 const Main = () => {
 
@@ -58,6 +61,8 @@ const Main = () => {
             <Route path='/confirmed' element={<ConfirmedBooking/>}/>
             <Route path="/about" element={<About />}/>
             <Route path="/SignUp" element={<SignUp />}/>
+            <Route path="/menu" element={<Menu />}/>
+            <Route path="/order" element={<Order />}/>
         </Routes>
     </main>
   )
