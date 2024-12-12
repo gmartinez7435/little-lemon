@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import resturantfood from "../assets/restauranfood.jpg";
 
-import Menu from "./Menu";
+import Specials from "./Specials";
 
 import Footer from "./Footer";
 
@@ -27,7 +27,7 @@ const Header = () => {
           </div>
         </section>
       </header>
-      <Menu />
+      <Specials />
       <Footer />
     </>
   );

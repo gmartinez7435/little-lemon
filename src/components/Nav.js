@@ -33,16 +33,16 @@ const Nav = () => {
                   <Link to="/About" onClick={closeMenu}>About</Link>
                 </li>
                 <li>
-                  <Link to="/" onClick={closeMenu}>Menu</Link>
+                  <Link to="/Menu" onClick={closeMenu}>Menu</Link>
                 </li>
                 <li>
                   <Link to="/Booking" onClick={closeMenu}>Reservations</Link>
                 </li>
                 <li>
-                  <Link to="/" onClick={closeMenu}>Order Online</Link>
+                  <Link to="/Order" onClick={closeMenu}>Order Online</Link>
                 </li>
                 <li>
-                  <Link to="/SignUp" onClick={closeMenu}>Sign-up/Login</Link>
+                  <Link to="/Signup" onClick={closeMenu}>Sign-up/Login</Link>
                 </li>
             </ul>
             {/* for desktop */}
