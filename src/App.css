@@ -190,11 +190,12 @@ input, label{
 }
 .cards{
   margin-top: 30px;
+  margin-right: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem 1rem;
+  gap: 2rem 8rem;
 }
 
 .menu-items{
@@ -300,6 +301,9 @@ footer ul li{
   }
   .menu-container{
     margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
+    justify-content: center;
   }
   .menu-header{
     justify-content: flex-start;
