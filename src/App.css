@@ -164,8 +164,28 @@ label {
   border-radius: 4px;
 }
 
-.comfirm span {
-  color: blue;
+.confirm-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.confirm {
+  display: grid;
+  padding: 10px 10%;
+  background-color: #495e57;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 350px;
+  text-align: center;
+  
+}
+
+.confirm span {
+  color: rgb(244, 206, 20);
 }
 
 /* menu items */
@@ -310,7 +330,7 @@ footer ul li {
   }
 
   form,
-  .comfirm {
+  .confirm {
     padding: 10px 8%;
   }
 
