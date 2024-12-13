@@ -4,6 +4,7 @@ import resturantfood from "../assets/restauranfood.jpg";
 import Specials from "./Specials";
 import Footer from "./Footer";
 import Testimony from "./Testimony";
+import About from "./About";
 
 const Header = () => {
   return (
@@ -28,6 +29,7 @@ const Header = () => {
       </header>
       <Specials />
       <Testimony />
+      <About />
       <Footer />
     </>
   );
