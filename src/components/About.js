@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <header className="about-header">
+    <header className="about-header" style={{padding: "20px"}}>
       <section>
         <div className="banner">
           <h2>About Us</h2>
@@ -38,9 +38,9 @@ const About = () => {
           </Link>
         </div>
       </section>
-      <div className="banner-img">
-        <img src={Adrian} alt="Adrian" />
-      </div>
+            <div className="banner-img" style={{paddingTop: "10px", alignItems: "center", alignSelf: "center", }}>
+            <img src={Adrian} alt="Adrian" />
+          </div>
     </header>
   );
 };
