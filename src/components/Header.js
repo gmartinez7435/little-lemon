@@ -19,7 +19,7 @@ const Header = () => {
               traditional recipes served with a modern twist.
             </p>
             <Link to="/booking">
-              <button aria-label="On Click">Reserve Table</button>
+              <button aria-label="On Click">Reserve a Table</button>
             </Link>
           </div>
           <div className="banner-img">

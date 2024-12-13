@@ -28,7 +28,7 @@ const Menu = () => {
     <div className='menu-container'>
         <div className='menu-header'>
             <h2>This Weeks Specials!</h2>
-            <button>Order Now</button>
+            <button>On Our Menu</button>
         </div>
         <div className='cards'>
             {

@@ -105,7 +105,7 @@ h3 {
 .banner p {
   font-size: 20px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 button {
@@ -415,3 +415,6 @@ footer ul li{
   justify-content: space-around;
   gap: 10px;
 }
+
+
+
