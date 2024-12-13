@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import resturantfood from "../assets/restauranfood.jpg";
-
 import Specials from "./Specials";
-
 import Footer from "./Footer";
+import Testimony from "./Testimony";
 
 const Header = () => {
   return (
@@ -28,6 +27,7 @@ const Header = () => {
         </section>
       </header>
       <Specials />
+      <Testimony />
       <Footer />
     </>
   );
