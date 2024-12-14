@@ -2,6 +2,8 @@ import React from 'react'
 import recipes from '../recipes'
 import Swal from 'sweetalert2';
 
+import { Link } from 'react-router-dom';
+
 const Menu = () => {
 
     const handleOrder = (id) => {
@@ -28,7 +30,7 @@ const Menu = () => {
     <div className='menu-container'>
         <div className='menu-header'>
             <h2>This Weeks Specials!</h2>
-            <button>On Our Menu</button>
+            <Link to="./Menu"> <button>On Our Menu</button></Link>
         </div>
         <div className='cards'>
             {

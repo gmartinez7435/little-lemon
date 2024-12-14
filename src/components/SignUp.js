@@ -75,6 +75,7 @@ function Login() {
               Email address <sup>*</sup>
             </label>
             <input
+            type="email"
               value={email}
               onChange={(e) => {
                 setEmail(e.target.value);
