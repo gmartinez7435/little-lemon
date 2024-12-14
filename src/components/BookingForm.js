@@ -24,16 +24,16 @@ const BookingForm = (props) => {
             <form onSubmit={handleSubmit}>
                 <fieldset className='booking-field'>
                     <div>
-                        <label>First Name:</label>
-                        <input value={firstName} onChange={(e) => setFirstName(e.target.value)} required/>
+                        <label htmlFor='first-name'>First Name:</label>
+                        <input id='first-name' value={firstName} onChange={(e) => setFirstName(e.target.value)} required/>
                     </div>
                     <div>
-                        <label>Last Name:</label>
-                        <input value={lastName} onChange={(e) => setLastName(e.target.value)} required/>
+                        <label htmlFor='last-name'>Last Name:</label>
+                        <input id='last-name' value={lastName} onChange={(e) => setLastName(e.target.value)} required/>
                     </div>
                     <div>
-                        <label>Email:</label>
-                        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
+                        <label htmlFor='email'>Email:</label>
+                        <input id='email' type="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
                     </div>
                     <div>
                         <label htmlFor='book-date'>Choose Date:</label>
@@ -53,7 +53,7 @@ const BookingForm = (props) => {
 
                     <div>
                         <label htmlFor='book-guests'>Number of Guests:</label>
-                        <input id='book-guest' min='1' value={guests} onChange={(e) => setGuests(e.target.value)}/>
+                        <input id='book-guests' min='1' value={guests} onChange={(e) => setGuests(e.target.value)} required/>
 
                     </div>
 
