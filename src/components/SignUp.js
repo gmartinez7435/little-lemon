@@ -50,7 +50,7 @@ function Login() {
           <h2>Sign Up</h2>
           <div className="Field">
             <label htmlFor="first-name">
-              First name <sup>*</sup>
+              First Name <sup>*</sup>
             </label>
             <input
             id="first-name"
@@ -62,7 +62,7 @@ function Login() {
             />
           </div>
           <div className="Field">
-            <label htmlFor="last-name">Last name <sup>*</sup></label>
+            <label htmlFor="last-name">Last Name <sup>*</sup></label>
             <input
             id="last-name"
               value={lastName}
@@ -74,7 +74,7 @@ function Login() {
           </div>
           <div className="Field">
             <label htmlFor="email">
-              Email address <sup>*</sup>
+              Email Address <sup>*</sup>
             </label>
             <input
             id="email"
