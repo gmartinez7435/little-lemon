@@ -5,6 +5,9 @@ const BookingForm = (props) => {
     const [times, setTimes] = useState("");
     const [guests, setGuests] = useState("");
     const [occasion, setOccasion] = useState("");
+    const [firstName, setFirstName] = useState("");
+    const [lastName, setLastName] = useState("");
+    const [email, setEmail] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -20,6 +23,18 @@ const BookingForm = (props) => {
         <section className='booking-form'>
             <form onSubmit={handleSubmit}>
                 <fieldset className='booking-field'>
+                    <div>
+                        <label>First Name:</label>
+                        <input value={firstName} onChange={(e) => setFirstName(e.target.value)} required/>
+                    </div>
+                    <div>
+                        <label>Last Name:</label>
+                        <input value={lastName} onChange={(e) => setLastName(e.target.value)} required/>
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <input value={email} onChange={(e) => setEmail(e.target.value)} required/>
+                    </div>
                     <div>
                         <label htmlFor='book-date'>Choose Date:</label>
                         <input id='book-date' value={date} onChange={(e) => handleChange(e.target.value)} type='date' required/>
