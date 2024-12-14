@@ -49,10 +49,11 @@ function Login() {
         <fieldset className="sign-up">
           <h2>Sign Up</h2>
           <div className="Field">
-            <label>
+            <label htmlFor="first-name">
               First name <sup>*</sup>
             </label>
             <input
+            id="first-name"
               value={firstName}
               onChange={(e) => {
                 setFirstName(e.target.value);
@@ -61,8 +62,9 @@ function Login() {
             />
           </div>
           <div className="Field">
-            <label>Last name <sup>*</sup></label>
+            <label htmlFor="last-name">Last name <sup>*</sup></label>
             <input
+            id="last-name"
               value={lastName}
               onChange={(e) => {
                 setLastName(e.target.value);
@@ -71,10 +73,11 @@ function Login() {
             />
           </div>
           <div className="Field">
-            <label>
+            <label htmlFor="email">
               Email address <sup>*</sup>
             </label>
             <input
+            id="email"
             type="email"
               value={email}
               onChange={(e) => {
@@ -84,10 +87,11 @@ function Login() {
             />
           </div>
           <div className="Field">
-            <label>
+            <label htmlFor="password">
               Password <sup>*</sup>
             </label>
             <input
+            id="password"
               value={password.value}
               type="password"
               onChange={(e) => {
@@ -103,10 +107,10 @@ function Login() {
             ) : null}
           </div>
           <div className="Field">
-            <label>
+            <label htmlFor="role">
               Role <sup>*</sup>
             </label>
-            <select value={role} onChange={(e) => setRole(e.target.value)}>
+            <select id="role" value={role} onChange={(e) => setRole(e.target.value)}>
               <option value="role">Role</option>
               <option value="individual">Individual</option>
               <option value="business">Business</option>
