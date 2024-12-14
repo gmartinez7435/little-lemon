@@ -7,7 +7,7 @@ const ConfirmedBooking = () => {
         <div>
             <h1>Booking has been <span>confirmed!</span></h1>
             <p>We'll send you a confirmation email shortly.</p>
-            <button><a href='/' style={{color: "rgb(51, 51, 51)"}}>Back to Home</a></button>
+            <button aria-label="Back to Home"><a href='/' style={{color: "rgb(51, 51, 51)"}}>Back to Home</a></button>
         </div>
     </div>
   </div>

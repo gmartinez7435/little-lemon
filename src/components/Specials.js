@@ -42,7 +42,7 @@ const Menu = () => {
                             <p>{recipe.price}</p>
                         </div>
                         <p>{recipe.description}</p>
-                        <button className='orderBtn' onClick={() => handleOrder(recipe.id)}>Order Now</button>
+                        <button aria-label="add to cart" className='orderBtn' onClick={() => handleOrder(recipe.id)}>Order Now</button>
                     </div>
                 </div>)
             }

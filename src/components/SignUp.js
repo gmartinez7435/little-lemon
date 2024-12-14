@@ -113,10 +113,10 @@ function Login() {
             </select>
           </div>
           <div className="form-btn">
-          <button type="submit" disabled={!getIsFormValid()} onClick={(e) => handleSubmit(e)}>
+          <button aria-label="Create account" type="submit" disabled={!getIsFormValid()} onClick={(e) => handleSubmit(e)}>
             Create account
           </button>
-          <button type="submit" disabled={!getIsFormValid()} onClick={(e) => handleSubmit(e)}>
+          <button aria-label="Sign in" type="submit" disabled={!getIsFormValid()} onClick={(e) => handleSubmit(e)}>
             Sign In
           </button>
           </div>
