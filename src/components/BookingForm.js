@@ -17,9 +17,9 @@ const BookingForm = (props) => {
     }
   return (
     <header>
-        <section>
+        <section className='booking-form'>
             <form onSubmit={handleSubmit}>
-                <fieldset>
+                <fieldset className='booking-field'>
                     <div>
                         <label htmlFor='book-date'>Choose Date:</label>
                         <input id='book-date' value={date} onChange={(e) => handleChange(e.target.value)} type='date' required/>

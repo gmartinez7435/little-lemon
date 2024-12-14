@@ -10,8 +10,6 @@ function App() {
    <>
     <Nav />
     <Main />
-    {/* <Menu />
-    <Footer /> */}
     <BackToTop />
    </>
   );
