@@ -33,7 +33,7 @@ const BookingForm = (props) => {
                     </div>
                     <div>
                         <label>Email:</label>
-                        <input value={email} onChange={(e) => setEmail(e.target.value)} required/>
+                        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
                     </div>
                     <div>
                         <label htmlFor='book-date'>Choose Date:</label>
