@@ -32,7 +32,7 @@ const Menu = () => {
             <h2>This Weeks Specials!</h2>
             <Link to="./Menu"> <button>On Our Menu</button></Link>
         </div>
-        <div className='cards'>
+        <div className='cards' style={{justifyContent: "space-evenly"}}>
             {
                 recipes.map(recipe => <div key={recipe.id} className='menu-items'>
                     <img src={recipe.image} alt="special items"/>
